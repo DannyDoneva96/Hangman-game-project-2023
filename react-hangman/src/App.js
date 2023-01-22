@@ -7,6 +7,9 @@ import WrongLetter from './Components/WrongLetter';
 
 function App() {
   const [playable, setPlayable] = useState(true);
+  const [correctLetter, setCorrectLetter] = useState([])
+  const [wrongLetters, setWrongLetters] = useState([])
+
   return (
     <div className="App">
      <Header />
