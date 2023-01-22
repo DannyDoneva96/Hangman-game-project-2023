@@ -11,6 +11,7 @@ function App() {
      <Hangman />
      <WrongLetter />
      <Word/>
+     
     </div>
   );
 }
